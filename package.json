@@ -13,9 +13,11 @@
   "dependencies": {
     "bcrypt": "^5.0.0",
     "body-parser": "^1.19.0",
+    "cookie-parser": "^1.4.5",
     "cors": "^2.8.5",
     "express": "^4.17.1",
-    "express-session": "^1.16.2",
+    "express-session": "^1.17.1",
+    "express-session-sqlite": "^2.0.8",
     "njwt": "^1.0.0",
     "nnode": "^0.3.3",
     "sqlite3": "^5.0.1"

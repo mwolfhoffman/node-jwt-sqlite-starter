@@ -24,7 +24,6 @@ export const authMiddleware = async (req, res, next) => {
     const { userId } = decoded;
     const user = await repository.getUserById(userId)
     if (user) {
-      console.log('found user!');
       req.userId = userId;
     }
   } catch (e) {
