@@ -49,6 +49,10 @@ The request body should be:
 
 You will receive an access_token response.  This is to be sent as your "Access-Token" header. 
 
+## Session
+
+By default, the session is saved in the sqlite db in memory for 1 week. 
+
 ## Latest JS Features
 
 `nnode` has been installed to use the latest js features within a node API. 
